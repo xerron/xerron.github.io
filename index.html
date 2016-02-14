@@ -5,7 +5,17 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xerron | Profile</title>
+    <meta name='keywords' content='xerron, full, stack, developer, peru'>
+    <meta name='description' content='Pagina web profesional de E. Manuel Cerrón Angeles'>
+    <meta name='subject' content='Servicios Informaticos'>
+    <meta name='copyright' content='xerron'>
+    <meta name='language' content='ES'>
+    <meta name='author' content='E.manuel Cerrón Angeles, xerron.angels@gmail.com'>
+    <meta name='designer' content='E. Manuel Cerrón Angeles'>
+
+    <title>E. Manuel Cerrón Angeles</title>
+    <link rel='shortcut icon' type='image/ico' href='/assets/favicon.ico'>
+    <link rel=“preload” href=“assets/fonts/xerron-dev.woff2” as=“font”>
     <link rel="stylesheet" href="assets/css/app.css">
   </head>
   <body>
@@ -17,9 +27,9 @@
         <div class="topbar fixed">
           <div class="expanded row">
           <div class="small-12 medium-4 large-8 columns">
-            <div class="logo">
+            <div class="logo ">
               <a href="" >
-                <img src="assets/img/logo-header.png"><span class="show-for-large"><strong>E. MANUEL CERRÓN</strong></span> </a>
+                <img id="logo-img" data-animate src="assets/img/logo-header.png"><span class="show-for-large"><strong>E. MANUEL CERRÓN</strong></span> </a>
             </div>
           </div>
           <div class="small-12 medium-8 large-4 columns" >
@@ -27,16 +37,16 @@
               <div class="tab-menu">
                 <!-- tab-title -->
                 <input type="radio" id="tab-1" name="tab" checked="checked">
-                <span href="#tab-item-1">Servicios</span>
+                <span id="tab-1-span" href="#tab-item-1">Servicios</span>
     
                 <input type="radio" id="tab-2" name="tab">
-                <span href="#tab-item-2">Proyectos</span>
+                <span id="tab-2-span" href="#tab-item-2">Proyectos</span>
     
                 <input type="radio" id="tab-3" name="tab">
-                <span href="#tab-item-3">Blog</span>
+                <span id="tab-3-span" href="#tab-item-3">Blog</span>
     
                 <input type="radio" id="tab-4" name="tab">
-                <span href="#tab-item-4">Contacto</span>
+                <span id="tab-4-span" href="#tab-item-4">Contacto</span>
     
                 <div class="line ease"></div>
               </div>
@@ -60,55 +70,55 @@
               <div class="row">
                 <div class="large-12 columns">
                   <h5 class="text-center"></h5>
-                  <div class="row small-up-1 medium-up-2 large-up-4">
-                    <div class="column text-center">
-                      <p class="icon-container" ><i class="fi fi-ios-cart fi-5x"></i></p>
+                  <div id="services-list" class="row small-up-1 medium-up-1 large-up-4">
+                    <div  id="ecommerce" class="column text-center">
+                      <p class="icon-container tac" ><i class="fi fi-ios-cart fi-5x"></i></p>
                       <h6><strong>E-COMMERCE</strong></h6>
-                      <p>Ofrece a tus clientes la mejor experiencia en compro online.</p>
-                      <p>la experiencia del usuario First-rate es clave para impulsar sus ventas. Gracias a nuestra experiencia fascinarán a sus clientes y quieren comprar sus productos.</p>
-                      <p><i data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex=1 title="Magento" class="fi fi-magento fi-3x has-tip bottom"></i> <i class="fi fi-drupal fi-3x "></i></p>
+                      <p>Ofrece a tus clientes la mejor experiencia en compra online.</p>
+                      <p>la experiencia del usuario es clave para impulsar sus ventas. Con una gran experiencia de usuario y performance, fascinará a sus clientes que querran comprar sus productos.</p>
+                      <p class="p-end"><i data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex=1 title="Magento" class="fi fi-magento fi-3x has-tip bottom"></i> <i class="fi fi-drupal fi-3x "></i></p>
                     </div>
-                    <div class="column text-center">
-                      <p class="icon-container"><i class="fi fi-iphone fi-5x"></i></p>
+                    <div id="mobile-apps" class="column text-center">
+                      <p class="icon-container tac"><i class="fi fi-iphone fi-5x"></i></p>
                       <h6><strong>MOBILE APPS</strong></h6>
                       <p>Que le da un control total.</p>
-                      <p>Obtendremos su contenido móvil. Con las aplicaciones nativas, los sitios web móviles, el diseño de respuesta y aplicaciones híbridas. Estamos listos para trabajar en todos los canales.</p>
-                      <p><i class="fi fi-apple fi-3x"></i> <i class="fi fi-android fi-3x"></i></p>
+                      <p>Tendra su contenido y podra administrarlo a travez de aplicaciones web o nativas, estoy preparado para brindarle la mejor solución a sus necesidades y trabajar en todos los canales.</p>
+                      <p class="p-end"><i class="fi fi-apple fi-3x"></i> <i class="fi fi-android fi-3x"></i></p>
                     </div>
-                      <div class="column text-center">
-                      <p class="icon-container"><i class="fi fi-ios-copy fi-5x"></i></p>
+                    <div id="content-management" class="column text-center">
+                      <p class="icon-container tac"><i class="fi fi-ios-copy fi-5x"></i></p>
                       <h6><strong>CONTENT MANAGEMENT</strong></h6>
-                      <p>Una solucion estandar y flexible.</p>
+                      <p>Una solución estandar y flexible.</p>
                       <p>La gestión de contenidos es una operación delicada que implica encontrar un buen equilibrio entre los requisitos normalizados y específicos de la empresa.</p>
-                      <p><i class="fi fi-drupal fi-3x"></i> <i class="fi fi-wordpress fi-3x"></i></p>
+                      <p class="p-end"><i class="fi fi-drupal fi-3x"></i> <i class="fi fi-wordpress fi-3x"></i></p>
                     </div>
-                      <div class="column text-center">
-                      <p class="icon-container"><i class="fi fi-ios-people fi-5x"></i></p>
+                    <div id="user-experience" class="column text-center">
+                      <p class="icon-container tac"><i class="fi fi-ios-people fi-5x"></i></p>
                       <h6><strong>USER EXPERIENCE</strong></h6>
                       <p>Impulsa la lealtad de tus clientes.</p>
-                      <p>Usuarios quiere procesos sencillos y claros, entender y fácil de interfaces. Ayudamos a identificar y ganar por encima de su base de clientes, lo que hace que sea más fácil para que usted pueda alcanzar sus objetivos antes de lo esperado.</p>
-                      <p><i class="fi fi-iphone fi-3x"></i><i class="fi fi-ipad fi-3x"></i><i class="fi fi-monitor fi-3x"></i></p>
+                      <p>Usuarios quiere procesos sencillos y claros, interfaces faciles de entender. Le ayudare a incrementar sus clientes y a mantenerlos felices, lo que hace que sea más fácil para que usted pueda alcanzar sus objetivos antes de lo esperado.</p>
+                      <p class="p-end"><i class="fi fi-iphone fi-3x"></i><i class="fi fi-ipad fi-3x"></i><i class="fi fi-monitor fi-3x"></i></p>
                     </div>
-                      <div class="column text-center">
-                      <p class="icon-container"><i class="fi fi-ios-book fi-5x"></i></p>
+                      <div id="elearning" class="column text-center">
+                      <p class="icon-container tac"><i class="fi fi-ios-book fi-5x"></i></p>
                       <h6><strong>E-LEARNING</strong></h6>
-                      <p>Una completa platafoprma educativa como un servicio.</p>
-                      <p>Entregamos paquetes de aprendizaje en línea que hacen que sea más fácil para que usted pueda distribuir su contenido de aprendizaje por medios electrónicos. Ofrecemos soluciones de aprendizaje electrónico tecnológicamente avanzados completos que también están disponibles como software como servicio (SaaS).</p>
-                      <p><i class="fi fi-moodle fi-3x"></i> <i class="fi fi-drupal fi-3x"></i></p>
+                      <p>Una completa platafoprma educativa.</p>
+                      <p>Entrego paquetes de aprendizaje en línea que facilita que usted pueda distribuir su contenido de aprendizaje por medios electrónicos. Ofresco soluciones de aprendizaje electrónico tecnológicamente avanzados y completos que también están disponibles como software como servicio (SaaS).</p>
+                      <p class="p-end"><i class="fi fi-moodle fi-3x"></i> <i class="fi fi-drupal fi-3x"></i></p>
                     </div>
-                      <div class="column text-center">
-                      <p class="icon-container"><i class="fi fi-arrow-graph-up-right fi-5x"></i></p>
+                    <div id="analitycs"  class="column text-center">
+                      <p class="icon-container tac"><i class="fi fi-arrow-graph-up-right fi-5x"></i></p>
                       <h6><strong>ANALYTICS</strong></h6>
                       <p>Optimize su digital performance.</p>
-                      <p>Las soluciones de análisis web que diseñar y realizar entregas de 360 ° sobre su rendimiento digital, y le proporcionará una gran cantidad de información procesable.</p>
-                      <p><i class="fi fi-google_analytics fi-3x"></i></p>
+                      <p>Soluciones de análisis web y su rendimiento digital, que le proporcionará una gran cantidad de información procesable y util.</p>
+                      <p class="p-end"><i class="fi fi-google_analytics fi-3x"></i><p>
                     </div>
-                      <div class="column text-center">
-                      <p class="icon-container"><i class="fi fi-cube fi-5x"></i></p>
+                      <div id="api" class="column text-center">
+                      <p class="icon-container tac"><i class="fi fi-cube fi-5x"></i></p>
                       <h6><strong>API</strong></h6>
                       <p>Hacer que los datos utilizables.</p>
-                      <p>Utilizar los datos como una plataforma, hacer crecer su negocio y aumentar la eficiencia de su innovación con un API-estrategia de alto rendimiento</p>
-                      <p><i class="fi fi-php fi-3x"></i> <i class="fi fi-javascript_1 fi-3x"></i> <i class="fi fi-python fi-3x"></i><i class="fi fi-java fi-3x"></i> <i class="fi fi-go fi-3x"></i></p>
+                      <p>Utilizar los datos como una plataforma, has crecer su negocio y aumentar la eficiencia de su innovación con un API y estrategias de alto rendimiento</p>
+                      <p class="p-end"><i class="fi fi-php fi-3x"></i> <i class="fi fi-javascript_1 fi-3x"></i> <i class="fi fi-python fi-3x"></i><i class="fi fi-java fi-3x"></i> <i class="fi fi-go fi-3x"></i></p>
                     </div>
                   </div>
                 </div>
@@ -119,55 +129,55 @@
               <div class="row">
                 <div class="large-12 columns">
                   <h5 class="text-center"></h5>
-                  <div class="row small-up-1 medium-up-2 large-up-4">
+                  <div class="row small-up-1 medium-up-1 large-up-4">
                     <div class="column">
-                      <p class="text-center"><i class="fi fi-vim fi-5x "></i></p>
+                      <p class="tac text-center"><i class="fi fi-vim fi-5x "></i></p>
                       <h6 class="text-center"><strong>Vimventor</strong></h6>
                       <p class="text-center"><span>20 <i class="fi fi-ios-star"></i></span><br>Moderna distribución minimalista de Vim. Los mejores plugins para escribir libre de distracciones.</p>
                       <p class="text-center"><i class="fi fi-vim  fi-2x"></i></p>
-                      <p><a href="https://github.com/xerron/vimventor" class="float-center hollowed button " >Ir al proyecto</a></p>
+                      <p class="text-center p-end"><a href="https://github.com/xerron/vimventor" class="hollowed button " >Ir al proyecto</a></p>
                     </div>
                     <div class="column">
-                      <p class="text-center"><i class="fi fi-monitor fi-5x "></i></p>
+                      <p class="tac text-center"><i class="fi fi-monitor fi-5x "></i></p>
                       <h6 class="text-center"><strong>Mindmin</strong></h6>
                       <p class="text-center"><span>10 <i class="fi fi-ios-star"></i></span><br>
                       Minimal template minimalist with Zurb Foundation 4. Interfaz  administrativa facil de usar.
                       </p>
                       <p class="text-center"><i class="fi fi-html5  fi-2x"></i> <i class="fi fi-css3  fi-2x"></i> <i class="fi fi-javascript_1  fi-2x"></i></p>
-                      <p><a href="https://github.com/xerron/mindmin" class="float-center hollowed button " >Ir al proyecto</a></p>
+                      <p class="text-center p-end"><a href="https://github.com/xerron/mindmin" class="hollowed button " >Ir al proyecto</a></p>
                     </div>
                     <div class="column">
-                      <p class="text-center"><i class="fi fi-ios-star fi-5x "></i></p>
+                      <p class="tac text-center"><i class="fi fi-ios-star fi-5x "></i></p>
                       <h6 class="text-center"><strong>Stardict.vim</strong></h6>
                       <p class="text-center"><span>20 <i class="fi fi-ios-star"></i></span><br>
                         Startdic Vim plugin, Busque en el diccionarios de startdic sin salir de Vim.
                       </p>
                       <p class="text-center"><i class="fi fi-vim  fi-2x"></i></p>
-                      <p><a href="https://github.com/xerron/stardict.vim" class="float-center hollowed button " >Ir al proyecto</a></p>
+                      <p class="text-center p-end"><a href="https://github.com/xerron/stardict.vim" class="hollowed button " >Ir al proyecto</a></p>
                     </div>
                     <div class="column">
-                      <p class="text-center"><i class="fi fi-ios-book fi-5x "></i></p>
+                      <p class="tac text-center"><i class="fi fi-ios-book fi-5x "></i></p>
                       <h6 class="text-center"><strong>WordByWord.vim</strong></h6>
                       <p class="text-center"><span>20 <i class="fi fi-ios-star"></i></span><br>
                         Visualize la traduccion que hay bajo el cursor de Vim. Tambien funciona con diccionarios GoldenDict</p>
                       <p class="text-center"><i class="fi fi-vim  fi-2x"></i></p>
-                      <p><a href="https://github.com/xerron/wordbyword.vim" class="float-center hollowed button " >Ir al proyecto</a></p>
+                      <p class="text-center p-end"><a href="https://github.com/xerron/wordbyword.vim" class="hollowed button " >Ir al proyecto</a></p>
                     </div>
                     <div class="column">
-                      <p class="text-center"><i class="fi fi-ios-compose fi-5x "></i></p>
+                      <p class="tac text-center"><i class="fi fi-ios-compose fi-5x "></i></p>
                       <h6 class="text-center"><strong>Rimas.vim</strong></h6>
                       <p class="text-center"><span>20 <i class="fi fi-ios-star"></i></span><br>
                         Encuentre palabras que rimen, interfaz para Vim</p>
                       <p class="text-center"><i class="fi fi-vim  fi-2x"></i></p>
-                      <p><a href="https://github.com/xerron/rimas.vim" class="float-center hollowed button " >Ir al proyecto</a></p>
+                      <p class="text-center p-end"><a href="https://github.com/xerron/rimas.vim" class="hollowed button " >Ir al proyecto</a></p>
                     </div>
                     <div class="column">
-                      <p class="text-center"><i class="fi fi-terminal fi-5x "></i></p>
+                      <p class="tac text-center"><i class="fi fi-terminal fi-5x "></i></p>
                       <h6 class="text-center"><strong>merimas CLI</strong></h6>
                       <p class="text-center"><span>20 <i class="fi fi-ios-star"></i></span><br>
                         Interfaz de LInea de comandos para el diccionario de rimas MeRimas.</p>
                       <p class="text-center"><i class="fi fi-java  fi-2x"></i></p>
-                      <p><a href="https://github.com/xerron/merimas" class="float-center hollowed button " >Ir al proyecto</a></p>
+                      <p class="text-center p-end"><a href="https://github.com/xerron/merimas" class="hollowed button " >Ir al proyecto</a></p>
                     </div>
                     <!-- fin proyectos -->
                   </div>
@@ -322,7 +332,8 @@
             </div>
           </div>
         </div>
-          <div class="copyright" style="background-color: #202020; color: #fff;">
+          <div class="copyright">
+            <div class="row separation"></div>
             <div class="row" >
               <div class="large-12 columns">
                 <p class="text-center"> E. Manuel Cerrón Angeles, copyright © 2016</p>
