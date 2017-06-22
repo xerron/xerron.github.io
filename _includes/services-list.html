@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="large-12 columns">
+    <div id="services-list" class="row small-up-1 medium-up-1 large-up-4">
+      {% for service in site.data.services %}
+      <div  id="ecommerce" class="column text-center">
+        <p class="icon-container tac" ><i class="fi fi-{{ service.icon }} fi-5x"></i></p>
+        <h6><strong>{{ service.title }}</strong></h6>
+        <p>{{ service.summary }}</p>
+        <p>{{ service.description }}.</p>
+        <p class="p-end">
+          {% for icon in service.icons %}
+          <i data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex=1 title="{{icon.tooltip}}" class="fi fi-{{icon.icon}} fi-3x has-tip bottom"></i>
+          {% endfor %}
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

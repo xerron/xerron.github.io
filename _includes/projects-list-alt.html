@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="large-12 columns">
+    {% for project in site.data.projects %}
+    <div class="row align-center">
+      <div class="small-12 medium-3 large-3 columns">
+        <h5 class="text-center medium-text-right large-text-right"><a href="#"><i class="fi fi-{{ project.icon }} fi-1x"></i> {{ project.title }}</a> </h5>
+        <p class="text-center medium-text-right large-text-right">
+          {% if project.tags-icons.size > 0 %}
+            {% for tag-icon in project.tags-icons %}
+            <i class="fi fi-{{ tag-icon}}  fi-1x"></i>
+            {% endfor %}
+          {% endif %}
+        </p>
+        </div>
+        <div class="small-12 medium-9 large-6 columns line-left">
+          <p class="">{{ project.description}}</p>
+        </div>
+      </div>
+      {% endfor %}
+      <!-- fin de rows -->
+  </div>
+</div>

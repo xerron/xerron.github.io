@@ -1,0 +1,38 @@
+- title: Vimventor
+  icon: social-github
+  tags-icons:
+    - vim
+  description: Moderna distribución minimalista de Vim. Los mejores plugins para escribir libre de distracciones..
+
+- title: Mindmin
+  icon: social-github
+  tags-icons:
+    - html5
+    - css3
+    - javascript_1
+  description: Minimal template minimalist with Zurb Foundation 4. Interfaz administrativa facil de usar.
+
+- title: Stardict.vim
+  icon: social-github
+  tags-icons:
+    - vim
+  description: Startdic Vim plugin, Busque en el diccionarios de startdic sin salir de Vim.
+
+- title: WordByWord.vim
+  icon: social-github
+  tags-icons:
+    - vim
+  description: Visualize la traduccion que hay bajo el cursor de Vim. Tambien funciona con diccionarios GoldenDict
+
+- title: Rimas.vim
+  icon: social-github
+  tags-icons:
+    - vim
+  description: Encuentre palabras que rimen, interfaz para Vim.
+
+- title: merimas CLI
+  icon: social-github
+  tags-icons:
+    - java
+  description: Interfaz de LInea de comandos para el diccionario de rimas MeRimas.
+

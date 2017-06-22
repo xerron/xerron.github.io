@@ -1,0 +1,72 @@
+- title: E-COMMERCE
+  icon: ios-cart
+  summary: Ofrece a tus clientes la mejor experiencia en compra online.
+  description: la experiencia del usuario es clave para impulsar sus ventas. Con una gran experiencia de usuario y performance, fascinará a sus clientes que querran comprar sus productos.
+  icons:
+    - icon: magento
+      tooltip: Magento
+    - icon: drupal
+      tooltip: Drupal
+
+- title: MOBILE APPS
+  icon: iphone
+  summary: Que le da un control total.
+  description: Tendra su contenido y podra administrarlo a travez de aplicaciones web o nativas, estoy preparado para brindarle la mejor solución a sus necesidades y trabajar en todos los canales.
+  icons:
+    - icon: apple
+      tooltip: iOS
+    - icon: android
+      tooltip: Android
+
+- title: CONTENT MANAGEMENT
+  icon: ios-copy
+  summary: Una solución estandar y flexible.
+  description: La gestión de contenidos es una operación delicada que implica encontrar un buen equilibrio entre los requisitos normalizados y específicos de la empresa.
+  icons:
+    - icon: drupal
+      tooltip: Drupal
+    - icon: wordpress
+      tooltip: Wordpress
+
+- title: USER EXPERIENCE
+  icon: ios-people
+  summary: Impulsa la lealtad de tus clientes.
+  description: Usuarios quiere procesos sencillos y claros, interfaces faciles de entender. Le ayudare a incrementar sus clientes y a mantenerlos felices, lo que hace que sea más fácil para que usted pueda alcanzar sus objetivos antes de lo esperado.
+  icons:
+    - icon: magento
+      tooltip: Magento
+    - icon: drupal
+      tooltip: Drupal
+
+
+- title: E-LEARNING
+  icon: ios-book
+  summary: Una completa platafoprma educativa.
+  description: Entrego paquetes de aprendizaje en línea que facilita que usted pueda distribuir su contenido de aprendizaje por medios electrónicos. Ofresco soluciones de aprendizaje electrónico tecnológicamente avanzados y completos que también están disponibles como software como servicio (SaaS).
+  icons:
+    - icon: moodle
+      tooltip: Moodle
+    - icon: drupal
+      tooltip: Drupal
+
+- title: ANALYTICS
+  icon: arrow-graph-up-right
+  summary: Optimize su digital performance.
+  description: Soluciones de análisis web y su rendimiento digital, que le proporcionará una gran cantidad de información procesable y util.
+  icons:
+    - icon: google_analytics
+      tooltip: Google Analytics
+
+- title: API
+  icon: cube
+  summary: Hacer que los datos utilizables.
+  description: Utilizar los datos como una plataforma, has crecer su negocio y aumentar la eficiencia de su innovación con un API y estrategias de alto rendimiento.
+  icons:
+    - icon: php
+      tooltip: PHP 7
+    - icon: javascript_1
+      tooltip: EMCAScript
+    - icon: python
+      tooltip: Python
+    - icon: go
+      tooltip: Go
